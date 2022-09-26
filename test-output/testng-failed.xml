@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.LoginTest">
+        <methods>
+          <include name="ValidateURL"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.LoginTest -->
+      <class name="testCases.DepartmentName_PageTest">
+        <methods>
+          <include name="DepartmentData" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testCases.DepartmentName_PageTest -->
+      <class name="testCases.Dashboard_TestPage">
+        <methods>
+          <include name="validateHomePageURL"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.Dashboard_TestPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
