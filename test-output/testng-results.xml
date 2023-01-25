@@ -1,61 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-26T20:01:22 IST" name="Default suite" finished-at="2022-09-26T20:02:12 IST" duration-ms="49975">
+  <suite started-at="2023-01-25T17:20:09 IST" name="Suite" finished-at="2023-01-25T17:22:47 IST" duration-ms="157712">
     <groups>
     </groups>
-    <test started-at="2022-09-26T20:01:22 IST" name="Default test" finished-at="2022-09-26T20:02:12 IST" duration-ms="49975">
-      <class name="testCases.DepartmentName_PageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.DepartmentName_PageTest@3ba987b8]" started-at="2022-09-26T20:01:23 IST" name="setup" finished-at="2022-09-26T20:01:36 IST" duration-ms="13090" status="PASS">
+    <test started-at="2023-01-25T17:20:09 IST" name="Test" finished-at="2023-01-25T17:22:47 IST" duration-ms="157712">
+      <class name="testCases.BranchMaster_PageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.BranchMaster_PageTest@38af9828]" started-at="2023-01-25T17:20:09 IST" name="setUp" finished-at="2023-01-25T17:20:25 IST" duration-ms="15398" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="DepartmentData(java.lang.String,java.lang.String)[pri:0, instance:testCases.DepartmentName_PageTest@3ba987b8]" started-at="2022-09-26T20:01:36 IST" name="DepartmentData" data-provider="readexcel" finished-at="2022-09-26T20:01:41 IST" duration-ms="5000" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="validateHomePageTestURL()[pri:1, instance:testCases.BranchMaster_PageTest@38af9828]" started-at="2023-01-25T17:20:25 IST" name="validateHomePageTestURL" finished-at="2023-01-25T17:20:40 IST" duration-ms="14960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTestURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.BranchMaster_PageTest@38af9828]" started-at="2023-01-25T17:20:40 IST" name="tearDown" finished-at="2023-01-25T17:20:45 IST" duration-ms="5748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.BranchMaster_PageTest@38af9828]" started-at="2023-01-25T17:20:46 IST" name="setUp" finished-at="2023-01-25T17:20:59 IST" duration-ms="12491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="BranchMasterData(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.BranchMaster_PageTest@38af9828]" started-at="2023-01-25T17:20:59 IST" name="BranchMasterData" data-provider="readexcel" finished-at="2023-01-25T17:21:36 IST" duration-ms="37465" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[supradeeptest]]>
+                <![CDATA[BU1-Test]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Hello Test]]>
+                <![CDATA[Podili]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hyderabad]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DepartmentData -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testCases.DepartmentName_PageTest@3ba987b8]" started-at="2022-09-26T20:01:41 IST" name="quit" finished-at="2022-09-26T20:01:47 IST" duration-ms="6159" status="PASS">
+        </test-method> <!-- BranchMasterData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.BranchMaster_PageTest@38af9828]" started-at="2023-01-25T17:21:36 IST" name="tearDown" finished-at="2023-01-25T17:21:42 IST" duration-ms="5741" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.DepartmentName_PageTest@3ba987b8]" started-at="2022-09-26T20:01:47 IST" name="setup" finished-at="2022-09-26T20:01:59 IST" duration-ms="12072" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.BranchMaster_PageTest@38af9828]" started-at="2023-01-25T17:21:42 IST" name="setUp" finished-at="2023-01-25T17:22:00 IST" duration-ms="17872" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="DepartmentData(java.lang.String,java.lang.String)[pri:0, instance:testCases.DepartmentName_PageTest@3ba987b8]" started-at="2022-09-26T20:01:59 IST" name="DepartmentData" data-provider="readexcel" finished-at="2022-09-26T20:02:05 IST" duration-ms="6181" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Muralitest]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Hello Test]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setUp -->
+        <test-method signature="deletebranch()[pri:3, instance:testCases.BranchMaster_PageTest@38af9828]" started-at="2023-01-25T17:22:00 IST" name="deletebranch" finished-at="2023-01-25T17:22:41 IST" duration-ms="41461" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DepartmentData -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testCases.DepartmentName_PageTest@3ba987b8]" started-at="2022-09-26T20:02:05 IST" name="quit" finished-at="2022-09-26T20:02:12 IST" duration-ms="6473" status="PASS">
+        </test-method> <!-- deletebranch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.BranchMaster_PageTest@38af9828]" started-at="2023-01-25T17:22:41 IST" name="tearDown" finished-at="2023-01-25T17:22:47 IST" duration-ms="5746" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- testCases.DepartmentName_PageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.BranchMaster_PageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

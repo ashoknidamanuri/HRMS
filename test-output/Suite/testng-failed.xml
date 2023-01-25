@@ -6,27 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.LoginTest">
+      <class name="testCases.LocationMaster_PageTest">
         <methods>
-          <include name="ValidateURL"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
-        </methods>
-      </class> <!-- testCases.LoginTest -->
-      <class name="testCases.DepartmentName_PageTest">
-        <methods>
-          <include name="DepartmentData" invocation-numbers="0"/>
-          <include name="setup"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- testCases.DepartmentName_PageTest -->
-      <class name="testCases.Dashboard_TestPage">
-        <methods>
-          <include name="validateHomePageURL"/>
+          <include name="ValidatethelocationMasterURL"/>
           <include name="tearDown"/>
-          <include name="setUp"/>
         </methods>
-      </class> <!-- testCases.Dashboard_TestPage -->
+      </class> <!-- testCases.LocationMaster_PageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

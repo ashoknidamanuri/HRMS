@@ -1,5 +1,6 @@
 package testCases;
 
+import org.apache.log4j.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -16,7 +17,7 @@ public class DepartmentName_PageTest extends BaseTest {
 	public DepartmentName_Page deptname;
 	public TestUtil testutil;
 	
-	
+	Logger log = Logger.getLogger(DepartmentName_Page.class);
 	public DepartmentName_PageTest() {
 		super();
 	}
@@ -25,6 +26,7 @@ public class DepartmentName_PageTest extends BaseTest {
 		initialization();
 		loginpage = new LoginPage();
 		loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
+		log.info("Login Suceesfully");
 		deptname= new DepartmentName_Page();
 		
 
@@ -40,12 +42,20 @@ public class DepartmentName_PageTest extends BaseTest {
 	@Test(dataProvider="readexcel")
 	public void DepartmentData(String DepartmentName, String Description) {
 		deptname.DepartmentData(DepartmentName, Description);
+		log.info("Data updated Successfully");
 	}
+	@Test(priority = 1)
 	
+	public void deleteDepartmentTest() throws InterruptedException {
+		deptname.deleteDepartment();
+		log.info("Data deleted Successfully");
+		
+	}
 	@AfterMethod
 	public void quit() throws InterruptedException {
 		Thread.sleep(5000);
 		driver.quit();
+		log.info("Browser is closed");
 	}
 
 }

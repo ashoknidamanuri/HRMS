@@ -28,6 +28,17 @@ public class DepartmentName_Page extends BaseTest {
 	@FindBy(xpath = "//button[contains(.,'Ok')]")
 	WebElement Ok;
 	
+	@FindBy(xpath = "(//button[@data-placement='top'])[1]")
+	WebElement delete;
+	
+	@FindBy(xpath = "//button[contains(.,'Cancel')]")
+	WebElement cancel;
+	
+	@FindBy(xpath = "//button[contains(@class,'confirm')]")
+	WebElement deleteagain;
+	
+	@FindBy(xpath = "//button[contains(.,'OK')]")
+	WebElement OK;
 	
 	public DepartmentName_Page() {
 		PageFactory.initElements(driver, this);
@@ -41,9 +52,30 @@ public class DepartmentName_Page extends BaseTest {
 		add.click();
 		DeptName.sendKeys(DepartmentName);
 		Des.sendKeys(Description);
+		Des.sendKeys();
 		submit.click();
 		
 		Ok.click();
+	}
+	public void deleteDepartment() throws InterruptedException {
+		Thread.sleep(3000);
+		EIMlink.click();
+		Thread.sleep(3000);
+		DeptMaster.click();
+		Thread.sleep(3000);
+		delete.isEnabled();
+		delete.click();
+		Thread.sleep(3000);
+		cancel.isEnabled();
+		cancel.click();
+		Thread.sleep(3000);
+		delete.click();
+		Thread.sleep(3000);
+		deleteagain.isEnabled();
+		deleteagain.click();
+		OK.isEnabled();
+		OK.click();
+         
 	}
 
 }
