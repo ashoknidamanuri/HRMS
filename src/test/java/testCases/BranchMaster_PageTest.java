@@ -36,7 +36,7 @@ public class BranchMaster_PageTest extends BaseTest{
 		
 	}
 	@Test(priority=1)
-	public void validateHomePageTestURL() throws InterruptedException {
+	public void validateBranchPageTestURL() throws InterruptedException {
 		bmasterPage.validateBranchMasterPageURL();
 		Thread.sleep(5000);
 		String pageurl= driver.getCurrentUrl();

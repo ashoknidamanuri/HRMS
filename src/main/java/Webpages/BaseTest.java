@@ -69,5 +69,6 @@ public class BaseTest {
 		driver.get(prop.getProperty("url"));
 		
 	}
+	
 
 }

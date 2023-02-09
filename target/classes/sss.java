@@ -6,5 +6,6 @@ public class sss {
 	//<class name="testCases.DesignationMaster_PageTest"/>
 	// <class name="testCases.OrganizationMaster_PageTest"/>
 	// <class name="testCases.LocationMaster_PageTest"/>
+	//<class name="testCases.BranchMaster_PageTest"/>
 
 }

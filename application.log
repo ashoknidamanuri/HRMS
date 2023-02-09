@@ -1,17 +1,14 @@
-2023-01-25 17:20:40,225  INFO [main] DesignationMaster_Page:45 - URL is displayed
-2023-01-25 17:20:45,978  INFO [main] DesignationMaster_Page:71 - Browser Closed
-2023-01-25 17:20:46,728  INFO [main] DesignationMaster_Page:53 - BranchMaster Sheet is displayed
-2023-01-25 17:21:36,687  INFO [main] DesignationMaster_Page:60 - Branch Master data added Successfully
-2023-01-25 17:21:42,431  INFO [main] DesignationMaster_Page:71 - Browser Closed
-2023-01-25 17:22:41,764  INFO [main] DesignationMaster_Page:65 - Branch Master data Deleted Successfully
-2023-01-25 17:22:47,512  INFO [main] DesignationMaster_Page:71 - Browser Closed
-2023-01-25 17:22:47,687 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-25 17:22:47,688 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-25 17:22:47,690 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-25 17:22:47,692 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-25 17:22:47,692 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ashok.nidamanuri/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2023-01-25 17:22:47,976 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-25 17:22:47,977 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-25 17:22:47,978 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-25 17:22:47,978 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-25 17:22:47,979 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ashok.nidamanuri/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-27 12:05:54,678  INFO [main] LeaveConfiguration_Page:43 - URL is Matched
+2023-01-27 12:06:00,459  INFO [main] LeaveConfiguration_Page:68 - Browser Closed
+2023-01-27 12:08:11,617  INFO [main] LeaveConfiguration_Page:68 - Browser Closed
+2023-01-27 12:08:56,460  INFO [main] LeaveConfiguration_Page:68 - Browser Closed
+2023-01-27 12:08:56,638 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-27 12:08:56,639 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-27 12:08:56,644 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-27 12:08:56,646 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-27 12:08:56,647 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ashok.nidamanuri/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-27 12:08:56,943 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-27 12:08:56,944 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-27 12:08:56,944 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-27 12:08:56,944 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-27 12:08:56,945 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ashok.nidamanuri/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

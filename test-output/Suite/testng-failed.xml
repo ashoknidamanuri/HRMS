@@ -6,13 +6,14 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.LocationMaster_PageTest">
+      <class name="testCases.LeaveConfiguration_PageTest">
         <methods>
-          <include name="setUp"/>
-          <include name="ValidatethelocationMasterURL"/>
+          <include name="setUP"/>
+          <include name="deletebranch"/>
+          <include name="leaveConfigurationdata" invocation-numbers="0"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.LocationMaster_PageTest -->
+      </class> <!-- testCases.LeaveConfiguration_PageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
